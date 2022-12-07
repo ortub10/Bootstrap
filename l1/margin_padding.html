@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Margin and padding</h1>
+      <div class="row bg-dark p-2">
+        <div class="col-3 bg-danger">first</div>
+        <div class="col-3 bg-warning">second</div>
+        <div class="col-3 bg-success">third</div>
+      </div>
+
+      <div class="row bg-dark p-2 mt-5">
+        <div class="col-3 bg-danger">first</div>
+        <div class="col-3 bg-warning mx-5">second</div>
+        <div class="col-3 bg-success">third</div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-6 bg-success left" style="height: 150px">box 1</div>
+        <div class="col-6 bg-info right row p-0">
+          <div class="bg-danger">top</div>
+          <div class="bg-warning">bottom</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
