@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Order form</h1>
+      <form class="col-md-6 mx-auto border p-2">
+        <label>Name</label>
+        <input type="text" class="form-control" />
+        <div class="form-check form-switch">
+          <input type="checkbox" class="form-check-input" checked />
+          <label>I confirm my order</label>
+        </div>
+        <br />
+        <label>Choose color:</label>
+        <select class="form-select">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+        </select>
+        <label> Comment:</label>
+        <textarea class="form-control" rows="7"></textarea>
+
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
